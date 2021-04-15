@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, {keyframes}from "styled-components"
+import styled from "styled-components"
 
 
 const PictureDiv = styled.div`
@@ -8,7 +8,6 @@ const PictureDiv = styled.div`
     background-color: ${pr=> pr.theme.themeColor};
     color: ${pr=>pr.theme.fontColor};
 `
-
 const ImgContent = styled.img`
     width:50%;
     margin: auto;
