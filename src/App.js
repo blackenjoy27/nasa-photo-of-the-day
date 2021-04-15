@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import Picture from "./components/Picture/Picture"
 import axios from 'axios';
+
 import "./App.css";
 
 function App() {
@@ -17,18 +18,12 @@ function App() {
        console.log("Something Went Wrong")
      })
    },[])
-
-  // const
   return (
-    <div className="App">
-      {
-        picture && <Picture picture={picture} />
-      }
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span role="img" aria-label='go!'>🚀</span>!
-      </p>
-    </div>
+      <div>
+        {
+          picture && <Picture picture={picture} />
+        }
+      </div>
   );
 }
 
