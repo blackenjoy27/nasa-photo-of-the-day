@@ -24,6 +24,15 @@
   color: white;
 }
 
+.App-contents{
+  display:flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.explanation{
+  font-size: 1.5rem;
+  width: 60%;
+}
 .App-link {
   color: #61dafb;
 }
